@@ -70,7 +70,7 @@ jQuery(document).ready(function() {
 				var tab = tabs.eq(tabIndex);
 				if(tab.attr('href') === '#portfolio') {
 					if(tab.attr('href') === '#portfolio' && jQuery('.portfolio_items').length > 0) {
-						jQuery('.portfolio_items').isotope({ filter: getIsotopeFilter() });
+						jQuery('.portfolio_items').isotope({ filter: '.filter1' });
 					}
 				}
 				if(tab.attr('href') === '#contacts') {

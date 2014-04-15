@@ -26,13 +26,13 @@ background: #1C2633;
 border: 3px solid #3280C7;
 color: #3280C7;
 }
-#resume #skills .bar {
+#skills .bar {
 background: #1C2633;
 }
-#resume #skills .skills li span span {
+#skills .skills li span span {
 background: #3280C7;
 }
-#resume #skills .skills li span span:after {
+#skills .skills li span span:after {
 border-right-color: #3280C7;
 }
 #resume #employment .list-head .alt1 {

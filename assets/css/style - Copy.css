@@ -1,4 +1,4 @@
-html, body, div, span, applet, object, iframe,
+﻿html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, font, ins, kbd, q, s, samp,
@@ -770,14 +770,14 @@ a img {border: none;}
 /** #portfolio Styles **/
 #portfolio .portfolio_items  {
 	overflow: hidden;
-	margin-bottom: 0px;
+	margin-bottom: 30px;
 }
 #portfolio #portfolio_iso_filters {
 	overflow: hidden;
 	padding: 0;
 	background: #fff;
-	margin: 0 auto 0px auto;
-	width: 90%;
+	margin: 0 auto 20px auto;
+	width: 70%;
 }
 #portfolio #portfolio_iso_filters li {
 	list-style: none;
