@@ -34,9 +34,9 @@ body {
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 h1 { font-size: 46px; line-height: 50px;}
 h2 { font-size: 35px; line-height: 40px;}
-h3 { font-size: 28px; line-height: 34px; }
-h4 { font-size: 21px; line-height: 30px; }
-h5 { font-size: 17px; line-height: 24px; }
+h3 { font-size: 24px; line-height: 30px; }
+h4 { font-size: 20px; line-height: 28px; }
+h5 { font-size: 16px; line-height: 22px; }
 h6 { font-size: 14px; line-height: 21px; }
 label {
 	display: block;
@@ -609,18 +609,18 @@ a img {border: none;}
 }
 #resume #employment .emp .emp-head span {font-weight: 700;}
 #resume #employment .emp .emp-content {padding: 0 10px;}
-#resume #education .list-block {
+#education .list-block {
 	margin-bottom: 20px;
 	width: 100%;
 	overflow: hidden;
 }
-#resume #education .last {margin-bottom: 0px;}
-#resume #education .list-head-edu {
+#education .last {margin-bottom: 0px;}
+#education .list-head-edu {
 	float: left;
 	margin-right: 5px;
 	width: 75px;
 }
-#resume #education .list-head-edu .alt1 {
+#education .list-head-edu .alt1 {
 	display: block;
 	position: relative;
 	background: #bbb;
@@ -630,7 +630,7 @@ a img {border: none;}
 	text-align: center;
 	line-height: 30px;
 }
-#resume #education .list-head-edu .alt2 {
+#education .list-head-edu .alt2 {
 	display: block;
 	position: relative;
 	background: #999;
@@ -640,23 +640,23 @@ a img {border: none;}
 	box-shadow: inset -3px 5px 0px -3px #888;
 	line-height: 30px;
 }
-#resume #education .emp {
+#education .emp {
 	font-size: 13px;
 	float: left;
 	width: 575px;
 }
-#resume #education .emp .emp-head {
+#education .emp .emp-head {
 	display: block;
 	padding: 10px;
 	position: relative;
 	color: #474747;
 }
-#resume #education .emp .emp-head h4 {
+#education .emp .emp-head h4 {
 	line-height: 100%;
 	font-size: 18px;
 }
-#resume #education .emp .emp-head span {font-weight: 700;}
-#resume #education .emp .emp-content {padding: 0 10px;}
+#education .emp .emp-head span {font-weight: 700;}
+#education .emp .emp-content {padding: 0 10px;}
 #resume #download #buttons {
 	overflow: hidden;
 	text-align: center;
@@ -1163,8 +1163,8 @@ border: 2px solid #888;
 #header #head .bx-wrapper {height: 425px;}
 #main {width: 612px; height: 580px;}
 #resume #download #buttons {padding: 0 34%;}
-#resume #employment .list-head, #resume #education .list-head-edu {width: 65px;}
-#resume #employment .emp, #resume #education .emp {width: 462px;}
+#resume #employment .list-head, #education .list-head-edu {width: 65px;}
+#resume #employment .emp, #education .emp {width: 462px;}
 #portfolio #portfolio_iso_filters {width: 86%;}
 #portfolio #portfolio_load_more {width: 29%;}
 #portfolio .portfolio_items article.portfolio_post {width: 250px;}
@@ -1184,8 +1184,8 @@ textarea {height: 12.4em;}
 #header #head .bx-wrapper {display: none;}
 #main {width: 100%; height: 813px;}
 #resume #download #buttons {padding: 0 37%;}
-#resume #employment .list-head, #resume #education .list-head-edu {width: 65px;}
-#resume #employment .emp, #resume #education .emp {width: 570px;}
+#resume #employment .list-head, #education .list-head-edu {width: 65px;}
+#resume #employment .emp, #education .emp {width: 570px;}
 #portfolio #portfolio_iso_filters {width: 86%;}
 #portfolio #portfolio_load_more {width: 29%;}
 #portfolio .portfolio_items article.portfolio_post {width: 219.3333333px;}
@@ -1206,9 +1206,9 @@ textarea {height: 12.4em;}
 #header #head .bx-wrapper {display: none;}
 #main {width: 100%; height: 454px;}
 #resume #download #buttons {padding: 0 30%;}
-#resume #employment .list-head, #resume #education .list-head-edu {width: 65px;}
-#resume #employment .emp, #resume #education .emp {width: 340px;}
-#resume #employment .emp .emp-head, #resume #education .emp .emp-head {padding: 1px 10px 5px 10px;}
+#resume #employment .list-head, #education .list-head-edu {width: 65px;}
+#resume #employment .emp, #education .emp {width: 340px;}
+#resume #employment .emp .emp-head, #education .emp .emp-head {padding: 1px 10px 5px 10px;}
 #portfolio #portfolio_iso_filters {width: 100%; padding: 0 14px;}
 #portfolio #portfolio_iso_filters li {margin: 0 1px;}
 #portfolio #portfolio_load_more {width: 37%;}
@@ -1235,9 +1235,9 @@ textarea {height: 12.4em;}
 #main {width: 100%; height: 331px;}
 #resume #download #buttons {padding: 0 20%;}
 #resume #skills .skills li span span {display: none;}
-#resume #employment .list-head, #resume #education .list-head-edu {float: none; margin-right: 0; width: auto;}
-#resume #employment .emp, #resume #education .emp {float: none; width: auto;}
-#resume #employment .emp .emp-head, #resume #education .emp .emp-head {padding: 15px 10px 5px 10px;}
+#resume #employment .list-head, #education .list-head-edu {float: none; margin-right: 0; width: auto;}
+#resume #employment .emp, #education .emp {float: none; width: auto;}
+#resume #employment .emp .emp-head, #education .emp .emp-head {padding: 15px 10px 5px 10px;}
 #portfolio #portfolio_iso_filters {width: 100%;}
 #portfolio #portfolio_iso_filters li {margin: 3px 0; font-size: 13px;line-height: 16px;}
 #portfolio #portfolio_iso_filters li a {padding: 5px 6px;}
@@ -1267,10 +1267,10 @@ textarea {height: 12.4em;}
 #main {width: 100%; height: 207px;}
 #resume #download #buttons {padding: 0 12%;}
 #resume #skills .skills li span span {display: none;}
-#resume #employment .list-head, #resume #education .list-head-edu {float: none; margin-right: 0; width: auto;}
-#resume #employment .emp, #resume #education .emp {float: none; width: auto;}
-#resume #employment .emp .emp-head, #resume #education .emp .emp-head {padding: 15px 10px 5px 10px;}
-#resume #employment .emp .emp-head h4, #resume #education .emp .emp-head h4 {font-size: 16px; line-height: 120%;}
+#resume #employment .list-head, #education .list-head-edu {float: none; margin-right: 0; width: auto;}
+#resume #employment .emp, #education .emp {float: none; width: auto;}
+#resume #employment .emp .emp-head, #education .emp .emp-head {padding: 15px 10px 5px 10px;}
+#resume #employment .emp .emp-head h4, #education .emp .emp-head h4 {font-size: 16px; line-height: 120%;}
 #portfolio #portfolio_iso_filters {width: 100%;}
 #portfolio #portfolio_iso_filters li {margin: 3px 0; font-size: 13px;line-height: 16px;}
 #portfolio #portfolio_iso_filters li a {padding: 5px 6px;}
