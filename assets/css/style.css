@@ -414,7 +414,7 @@ a img {border: none;}
 	line-height: 26px;
 	font-style: italic;
 }
-#home #services .col3 {
+#services .col3 {
 	position: relative;
 	min-height: 1px;
 	width: 27.333333%;
@@ -427,17 +427,17 @@ a img {border: none;}
 	-webkit-transition: all 0.5s ease 0s;
 	-o-transition: all 0.5s ease 0s;
 }
-#home #services .col3:hover {
+#services .col3:hover {
 	background: #fff;
 	border-radius: 5px;
 	box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.05);
 }
-#home #services .alpha {margin: 1% 0 0 0;}
-#home #services .service-icon {
+#services .alpha {margin: 1% 0 0 0;}
+#services .service-icon {
 	width: 92px;
 	margin: 0 auto;
 }
-#home #services .service-icon i {
+#services .service-icon i {
 	display: block;
 	width: 86px;
 	height: 86px;
@@ -452,7 +452,7 @@ a img {border: none;}
 	-webkit-transition: all 0.5s ease 0s;
 	-o-transition: all 0.5s ease 0s;
 }
-#home #services .col3:hover .service-icon i {
+#services .col3:hover .service-icon i {
 	border: 3px solid #F04343;
 	color: #F04343;
 	background: #fff;
@@ -461,13 +461,13 @@ a img {border: none;}
 	-moz-transform: scale(1) rotate(360deg);
 	-o-transform: scale(1) rotate(360deg);
 }
-#home #services .service-detail h6 {
+#services .service-detail h6 {
 	text-transform: uppercase;
 	font-weight: 700;
 	margin: 10px 0 3px 0;
 	text-align: center;
 }
-#home #services .service-detail p {text-align: center;}
+#services .service-detail p {text-align: center;}
 #home #twitter .tweet {text-align: center;}
 #home #twitter .tweet li:first-child {display: block;}
 #home #twitter .tweet li {
@@ -485,31 +485,31 @@ a img {border: none;}
 }
 
 /** #resume Styles **/
-#resume #skills .skills {
+#skills .skills {
 	list-style: none;
 	margin: 0;
 	position: relative;
 }
-#resume #skills .skills li {margin: 25px 0 0 0;}
-#resume #skills .skills li h5 {
+#skills .skills li {margin: 25px 0 0 0;}
+#skills .skills li h5 {
 	color: #444;
 	font-weight: 700;
 	text-transform: uppercase;
 	font-size: 14px;
 	line-height: 20px;
 }
-#resume #skills .bar-style {
+#skills .bar-style {
 	margin: 0 !important;
 	height: 25px;
 	background: #ddd;
 }
-#resume #skills .bar {
+#skills .bar {
 	height: 25px;
 	position: absolute;
 	text-align: right;
 	background: #503D3D;
 }
-#resume #skills .skills li span span {
+#skills .skills li span span {
 	display: inline-block;
 	padding: 0 5px;
 	background: #F04343;
@@ -523,7 +523,7 @@ a img {border: none;}
 	left: 1px;
 	line-height: 25px;
 }
-#resume #skills .skills li span span:after {
+#skills .skills li span span:after {
     content: "";  
     position: absolute;  
     bottom: -8px;  
@@ -533,82 +533,82 @@ a img {border: none;}
     border-bottom: 10px solid transparent;  
     border-right-color: #F04343;
 }
-#resume #skills .percents20 {
+#skills .percents20 {
 	width:20%; 
 	-moz-animation:percents20 2s ease-out;
 	-webkit-animation:percents20 2s ease-out;
 }
-#resume #skills .percents25 {
+#skills .percents25 {
 	width:25%; 
 	-moz-animation:percents25 2s ease-out;
 	-webkit-animation:percents25 2s ease-out;
 }
-#resume #skills .percents30 {
+#skills .percents30 {
 	width:30%; 
 	-moz-animation:percents30 2s ease-out;
 	-webkit-animation:percents30 2s ease-out;
 }
-#resume #skills .percents35 {
+#skills .percents35 {
 	width:35%; 
 	-moz-animation:percents35 2s ease-out;
 	-webkit-animation:percents35 2s ease-out;
 }
-#resume #skills .percents40 {
+#skills .percents40 {
 	width:40%; 
 	-moz-animation:percents40 2s ease-out;
 	-webkit-animation:percents40 2s ease-out;
 }
-#resume #skills .percents45 {
+#skills .percents45 {
 	width:45%; 
 	-moz-animation:graphic-design 2s ease-out;
 	-webkit-animation:graphic-design 2s ease-out;
 }
-#resume #skills .percents50 {
+#skills .percents50 {
 	width:50%; 
 	-moz-animation:percents50 2s ease-out;
 	-webkit-animation:percents50 2s ease-out;
 }
-#resume #skills .percents55 {
+#skills .percents55 {
 	width:55%; 
 	-moz-animation:percents55 2s ease-out;
 	-webkit-animation:percents55 2s ease-out;
 }
-#resume #skills .percents60 {
+#skills .percents60 {
 	width:60%; 
 	-moz-animation:percents60 2s ease-out;
 	-webkit-animation:percents60 2s ease-out;
 }
-#resume #skills .percents65 {
+#skills .percents65 {
 	width:65%; 
-	-moz-animation:graphic-design 2s ease-out;
-	-webkit-animation:graphic-design 2s ease-out;
+	-moz-animation:percents65 2s ease-out;
+	-webkit-animation:percents65 2s ease-out;
 }
-#resume #skills .percents70 {
+#skills .percents70 {
 	width:70%; 
 	-moz-animation:percents70 2s ease-out;
-	-webkit-animation:70 2s ease-out;
+	-webkit-animation:percents70 2s ease-out;
 }
-#resume #skills .percents75 {
+#skills .percents75 {
 	width:75%; 
 	-moz-animation:percents75 2s ease-out;
 	-webkit-animation:percents75 2s ease-out;
 }
-#resume #skills .percents80 {
+#skills .percents80 {
 	width:80%; 
 	-moz-animation:percents80 2s ease-out;
 	-webkit-animation:percents80 2s ease-out;
 }
-#resume #skills .percents85 {
+#skills .percents85 {
 	width:85%; 
 	-moz-animation:percents85 2s ease-out;
 	-webkit-animation:percents85 2s ease-out;
 }
-#resume #skills .percents90 {
+#skills .percents90 {
 	width:90%; 
 	-moz-animation:percents90 2s ease-out;
 	-webkit-animation:percents90 2s ease-out;
 }
-#resume #skills .percents95 {
+#skills .percents95 {
 	width:95%; 
 	-moz-animation:percents95 2s ease-out;
 	-webkit-animation:percents95 2s ease-out;
@@ -1307,8 +1307,8 @@ textarea {height: 12.4em;}
 #header #nav_tabs li ul li {float: right; width: 50px; height: 50px; line-height: 50px; } 
 #header #nav_tabs li ul li a {font-size: 16px;}
 textarea {height: 12.4em;}
-#home #services .col3 {width: 94%; margin: 0 0 10px 0; padding: 4% 3%;}
-#home #services .alpha {margin: 0;}
+#services .col3 {width: 94%; margin: 0 0 10px 0; padding: 4% 3%;}
+#services .alpha {margin: 0;}
 #contacts .col3 {width: 100%; font-weight: 700;}
 } 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
@@ -1324,7 +1324,7 @@ textarea {height: 12.4em;}
 #header #head .bx-wrapper {display: none;}
 #main {width: 100%; height: 331px;}
 #resume #download #buttons {padding: 0 20%;}
-#resume #skills .skills li span span {display: none;}
+#skills .skills li span span {display: none;}
 #resume #employment .list-head, #education .list-head-edu {float: none; margin-right: 0; width: auto;}
 #resume #employment .emp, #education .emp {float: none; width: auto;}
 #resume #employment .emp .emp-head, #education .emp .emp-head {padding: 15px 10px 5px 10px;}
@@ -1337,8 +1337,8 @@ textarea {height: 12.4em;}
 #header #nav_tabs li ul li {float: right; width: 46px; height: 46px; line-height: 46px; } 
 #header #nav_tabs li ul li a {font-size: 12px;}
 textarea {height: 12.4em;}
-#home #services .col3 {width: 94%; margin: 0 0 10px 0; padding: 4% 3%;}
-#home #services .alpha {margin: 0;}
+#services .col3 {width: 94%; margin: 0 0 10px 0; padding: 4% 3%;}
+#services .alpha {margin: 0;}
 #contacts .col3 {width: 100%; font-weight: 700;}
 #success {padding: 7px;}
 }
@@ -1356,7 +1356,7 @@ textarea {height: 12.4em;}
 #header #head .bx-wrapper {display: none;}
 #main {width: 100%; height: 207px;}
 #resume #download #buttons {padding: 0 12%;}
-#resume #skills .skills li span span {display: none;}
+#skills .skills li span span {display: none;}
 #resume #employment .list-head, #education .list-head-edu {float: none; margin-right: 0; width: auto;}
 #resume #employment .emp, #education .emp {float: none; width: auto;}
 #resume #employment .emp .emp-head, #education .emp .emp-head {padding: 15px 10px 5px 10px;}
@@ -1370,8 +1370,8 @@ textarea {height: 12.4em;}
 #header #nav_tabs li ul li {float: right; width: 24px; height: 24px; line-height: 24px; } 
 #header #nav_tabs li ul li a {font-size: 10px;}
 textarea {height: 12.4em;}
-#home #services .col3 {width: 94%; margin: 0 0 10px 0; padding: 4% 3%;}
-#home #services .alpha {margin: 0;}
+#services .col3 {width: 94%; margin: 0 0 10px 0; padding: 4% 3%;}
+#services .alpha {margin: 0;}
 #contacts .col3 {width: 100%; font-weight: 700;}
 #success {padding: 7px;}
 }
