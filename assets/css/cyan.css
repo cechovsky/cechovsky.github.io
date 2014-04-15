@@ -1,0 +1,59 @@
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, textarea:focus {
+border: 2px solid #12C0A5;
+}
+input[type=submit], input[type=button] {
+background: #12C0A5;
+}
+::selection {
+background: #12C0A5;
+}
+::-moz-selection {
+background: #12C0A5;
+}
+a {
+color: #12C0A5; 
+}
+#header #nav_tabs li {
+background: #12C0A5;
+}
+#header #nav_tabs li a:hover, #header #nav_tabs li.current a {
+color: #12C0A5;
+}
+#header #head #logo {
+background: #1C3333;
+}
+#home #services .col3:hover .service-icon i {
+border: 3px solid #12C0A5;
+color: #12C0A5;
+}
+#resume #skills .bar {
+background: #1C3333;
+}
+#resume #skills .skills li span span {
+background: #12C0A5;
+}
+#resume #skills .skills li span span:after {
+border-right-color: #12C0A5;
+}
+#resume #employment .list-head .alt1 {
+background: #12C0A5;
+}
+#resume #download #buttons .download {background: #12C0A5;}
+#portfolio #portfolio_iso_filters li a:hover {color: #12C0A5;}
+#portfolio #portfolio_iso_filters li a.current {
+background: #12C0A5;
+}
+#portfolio #more_results {
+background: #12C0A5;
+}
+
+#portfolio .portfolio_items article.portfolio_post a .overlay {
+background: rgba(18, 192, 165, 0.65);
+}
+#resume #employment .list-head .alt2 {
+background: #0F9E88;
+box-shadow: inset -3px 5px 0px -3px #0A8D79;
+}
+#header #head .bx-controls-direction a {
+background: rgba(18, 192, 165, 0.65);
+}
