@@ -35,22 +35,22 @@ background: #3280C7;
 #skills .skills li span span:after {
 border-right-color: #3280C7;
 }
-#resume #employment .list-head .alt1 {
+#employment .list-head .alt1 {
 background: #3280C7;
 }
-#resume #download #buttons .download {background: #3280C7;}
-#portfolio #portfolio_iso_filters li a:hover {color: #3280C7;}
-#portfolio #portfolio_iso_filters li a.current {
+#download #buttons .download {background: #3280C7;}
+#portfolio_iso_filters li a:hover {color: #3280C7;}
+#portfolio_iso_filters li a.current {
 background: #3280C7;
 }
-#portfolio #more_results {
+#more_results {
 background: #3280C7;
 }
 
-#portfolio .portfolio_items article.portfolio_post a .overlay {
+.portfolio_items article.portfolio_post a .overlay {
 background: rgba(50, 128, 199, 0.65);
 }
-#resume #employment .list-head .alt2 {
+#employment .list-head .alt2 {
 background: #2F72AF;
 box-shadow: inset -3px 5px 0px -3px #28669E;
 }

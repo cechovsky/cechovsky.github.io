@@ -68,8 +68,13 @@ jQuery(document).ready(function() {
 			onClick: function (e, tabIndex) {
 				var tabs = jQuery('#nav_tabs > li > a');
 				var tab = tabs.eq(tabIndex);
-				if(tab.attr('href') === '#portfolio') {
-					if(tab.attr('href') === '#portfolio' && jQuery('.portfolio_items').length > 0) {
+				if(tab.attr('href') === '#skills') {
+					if(tab.attr('href') === '#skills' && jQuery('.portfolio_items').length > 0) {
+						jQuery('.portfolio_items').isotope({ filter: '.filter1' });
+					}
+				}
+                if(tab.attr('href') === '#projects') {
+					if(tab.attr('href') === '#projects' && jQuery('.portfolio_items').length > 0) {
 						jQuery('.portfolio_items').isotope({ filter: '.filter1' });
 					}
 				}
