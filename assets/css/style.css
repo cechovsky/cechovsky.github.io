@@ -210,13 +210,13 @@ a img {border: none;}
     float: left; 
     /* list-style: none; */
     /* cursor: pointer; */
-    width: 95px;
-    height: 95px;
+    width: 70px;
+    height: 70px;
     margin: 10px;
     /* overflow: hidden; */
     font-size: 2em;
     text-align: center;
-    line-height: 95px;
+    line-height: 70px;
     color: #fff;
     background: #F04343;
     box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2);
